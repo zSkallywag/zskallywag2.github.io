@@ -23,7 +23,7 @@ export const Founder = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-32 px-6 bg-muted/30">
+    <section ref={sectionRef} onClick={() => window.open("https://www.linkedin.com/in/gaetano-cesano-976420200", "_blank")} className="py-32 px-6 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
         {/* Title */}
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
