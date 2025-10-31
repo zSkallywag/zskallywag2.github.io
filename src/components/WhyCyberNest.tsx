@@ -50,7 +50,7 @@ export const WhyCyberNest = () => {
 
             <p className="text-lg md:text-xl text-secondary leading-relaxed">
               CyberNest aiuta le aziende a lavorare in modo sicuro.
-              Si occupa dei loro sistemi, <span className="font-semibold text-foreground">li fa funzionare bene e li protegge da truffe e attacchi informatici.</span>: 
+              Si occupa dei loro sistemi, <span className="font-semibold text-foreground">li fa funzionare bene e li protegge da truffe e attacchi informatici.</span>
             </p>
 
             <Button 
