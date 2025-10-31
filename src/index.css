@@ -163,8 +163,9 @@ html, body {
   overflow-x: hidden;
 }
 
-/* Evita lo scroll causato da 100vw */
 main, section, div {
   max-width: 100%;
+  overflow-x: clip;
 }
+
 
