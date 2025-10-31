@@ -44,14 +44,14 @@ export const WhyCyberNest = () => {
           {/* Content */}
           <div className={`space-y-6 transition-all duration-1000 delay-300 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}>
             <h2 className="text-4xl md:text-6xl font-black leading-tight">
-              L'IT è strategia.{" "}
-              <span className="text-accent">La cyber è il cuore.</span>
+              Ogni azienda oggi è digitale.{" "}
+              <span className="text-accent">Ma non tutte sono protette.</span>
             </h2>
 
             <p className="text-lg md:text-xl text-secondary leading-relaxed">
-              CyberNest si occupa di IT a 360 gradi: infrastrutture, reti, cloud, DevOps.
-              Ma il <span className="font-semibold text-foreground">core business è la cybersecurity</span>: 
-              assessment tecnici, hardening, vulnerability research, formazione del personale e compliance DORA/NIS2.
+              CyberNest si occupa di tutto ciò che serve per far funzionare bene e in sicurezza i sistemi informatici di un’azienda.
+              Ma il <span className="font-semibold text-foreground"> suo punto di forza è la cybersecurity</span>: 
+              controlla che i sistemi non abbiano punti deboli, li rende più sicuri, insegna al personale come evitare truffe digitali e aiuta le aziende a rispettare le nuove regole sulla sicurezza dei dati.
             </p>
 
             <Button 
