@@ -25,7 +25,7 @@ export const FinalCTA = () => {
   }, []);
 
   const handleBooking = () => {
-    window.open("mailto:info@cybernest.it?subject=Richiesta%20Assessment%20Gratuito", "_blank");
+    window.open("https://cal.com/cybernest/30min", "_blank");
   };
 
   return (
