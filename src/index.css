@@ -152,8 +152,19 @@ All colors MUST be HSL.
   box-sizing: border-box;
 }
 
-body, html, #root, main, section, div {
-  max-width: 100vw !important;
-  overflow-x: hidden !important;
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* Evita lo scroll causato da 100vw */
+main, section, div {
+  max-width: 100%;
 }
 
