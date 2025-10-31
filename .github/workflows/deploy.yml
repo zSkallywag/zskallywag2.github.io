@@ -3,7 +3,10 @@ name: Deploy Vite site to GitHub Pages
 on:
   push:
     branches:
-      - main  # o "master", se è la tua branch principale
+      - main
+
+permissions:
+  contents: write  # necessario per consentire il push su gh-pages
 
 jobs:
   deploy:
@@ -18,7 +21,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build site
         run: npm run build
@@ -26,7 +29,4 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages          
-          force_orphan: true  
+          github_token: ${_
