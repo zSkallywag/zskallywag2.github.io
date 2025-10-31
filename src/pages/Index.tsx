@@ -1,3 +1,4 @@
+import { AnnouncementBar } from "@/components/AnnouncementBar";
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { WhyCyberNest } from "@/components/WhyCyberNest";
@@ -11,6 +12,7 @@ import { FloatingCTA } from "@/components/FloatingCTA";
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <AnnouncementBar />
       <Navigation />
       <Hero />
       <WhyCyberNest />

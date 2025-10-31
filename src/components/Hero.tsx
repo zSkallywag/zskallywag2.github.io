@@ -15,7 +15,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background px-6 py-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background px-6 py-20 pt-32">
       {/* Animated background elements */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-20 left-10 text-6xl font-bold opacity-5 animate-float">0</div>
