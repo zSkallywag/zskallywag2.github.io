@@ -44,14 +44,14 @@ export const WhyCyberNest = () => {
           {/* Content */}
           <div className={`space-y-6 transition-all duration-1000 delay-300 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}>
             <h2 className="text-4xl md:text-6xl font-black leading-tight">
-              La sicurezza non è un reparto.{" "}
-              <span className="text-accent">È una strategia.</span>
+              L'IT è strategia.{" "}
+              <span className="text-accent">La cyber è il cuore.</span>
             </h2>
 
             <p className="text-lg md:text-xl text-secondary leading-relaxed">
-              Una strategia IT efficace richiede pianificazione, competenza e una visione chiara.
-              CyberNest ti aiuta a tradurre la cybersecurity in scelte operative:
-              <span className="font-semibold text-foreground"> assessment tecnici, hardening, formazione del personale e compliance DORA/NIS2.</span>
+              CyberNest si occupa di IT a 360 gradi: infrastrutture, reti, cloud, DevOps.
+              Ma il <span className="font-semibold text-foreground">core business è la cybersecurity</span>: 
+              assessment tecnici, hardening, vulnerability research, formazione del personale e compliance DORA/NIS2.
             </p>
 
             <Button 

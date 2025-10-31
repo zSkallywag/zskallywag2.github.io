@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Calendar } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import ctaImage from "@/assets/ceo-sleeping-safe.png";
 
 export const FinalCTA = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,25 +29,39 @@ export const FinalCTA = () => {
   };
 
   return (
-    <section id="contact" ref={sectionRef} className="py-32 px-6 bg-foreground text-background">
-      <div className="container mx-auto max-w-4xl text-center">
-        <div className={`space-y-8 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-          <h2 className="text-4xl md:text-6xl font-black leading-tight">
-            Sei arrivato fin qui?
-          </h2>
-          <p className="text-2xl md:text-3xl font-semibold opacity-90">
-            Bene. Significa che un po' di paura ti è rimasta.
-          </p>
-          
-          <div className="pt-8">
-            <Button 
-              size="lg"
-              onClick={handleBooking}
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-10 py-7 rounded-full shadow-2xl hover:shadow-accent/50 transition-all duration-300 hover:scale-105 group"
-            >
-              <Calendar className="mr-2 group-hover:rotate-12 transition-transform" />
-              Prenota una call di 30 minuti oggi stesso
-            </Button>
+    <section id="contact" ref={sectionRef} className="py-32 px-6 bg-muted/30">
+      <div className="container mx-auto max-w-6xl">
+        <div className="grid md:grid-cols-2 gap-16 items-center">
+          {/* Illustration */}
+          <div className={`relative transition-all duration-1000 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}>
+            <img 
+              src={ctaImage} 
+              alt="CEO che dorme tranquillo protetto da scudo digitale" 
+              className="w-full h-auto"
+            />
+          </div>
+
+          {/* Content */}
+          <div className={`space-y-8 text-center md:text-left transition-all duration-1000 delay-300 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}>
+            <h2 className="text-4xl md:text-6xl font-black leading-tight">
+              Sei arrivato fin qui?
+            </h2>
+            
+            <p className="text-2xl md:text-3xl text-secondary leading-relaxed">
+              Bene. Significa che un po' di paura{" "}
+              <span className="text-accent font-bold">ti è rimasta.</span>
+            </p>
+
+            <div className="pt-4">
+              <Button 
+                size="lg"
+                onClick={handleBooking}
+                className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 group"
+              >
+                Prenota una call di 30 minuti
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </div>
           </div>
         </div>
       </div>
