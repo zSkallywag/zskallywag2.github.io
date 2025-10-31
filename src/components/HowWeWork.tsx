@@ -5,18 +5,18 @@ import repairImage from "@/assets/repair-team.png";
 const workBlocks = [
   {
     icon: Shield,
-    title: "Assessment reale, non teorico.",
-    description: "Analizziamo infrastrutture, codice e processi. Non slide.",
+    title: "Sai dove ti bucano?",
+    description: "Noi sì. E ci arriviamo prima di chiunque altro.",
   },
   {
     icon: Zap,
-    title: "Strategia, non patch.",
-    description: "Costruiamo sicurezza strutturale, non cerotti.",
+    title: "Niente pezze. Solo controllo totale.",
+    description: "Ti diamo una mappa chiara di ciò che funziona e di ciò che può cedere sotto pressione.",
   },
   {
     icon: FileCheck,
-    title: "Esecuzione rapida.",
-    description: "Risoluzioni documentate, senza tempi morti.",
+    title: "Non ti lasciamo con grafici e slide.",
+    description: "Ti mostriamo dove intervenire, come farlo e lo facciamo insieme a te.",
   },
 ];
 
