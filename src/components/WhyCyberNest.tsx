@@ -49,9 +49,8 @@ export const WhyCyberNest = () => {
             </h2>
 
             <p className="text-lg md:text-xl text-secondary leading-relaxed">
-              CyberNest si occupa di tutto ciò che serve per far funzionare bene e in sicurezza i sistemi informatici di un’azienda.
-              Ma il <span className="font-semibold text-foreground"> suo punto di forza è la cybersecurity</span>: 
-              controlla che i sistemi non abbiano punti deboli, li rende più sicuri, insegna al personale come evitare truffe digitali e aiuta le aziende a rispettare le nuove regole sulla sicurezza dei dati.
+              CyberNest aiuta le aziende a lavorare in modo sicuro.
+              Si occupa dei loro sistemi, <span className="font-semibold text-foreground">li fa funzionare bene e li protegge da truffe e attacchi informatici.</span>: 
             </p>
 
             <Button 
