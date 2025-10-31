@@ -55,9 +55,9 @@ export const Founder = () => {
             <div className="space-y-4 text-lg text-secondary leading-relaxed">
               <p>Fondatore di CyberNest.</p>
               <p>
-                Si occupa di IT a 360 gradi — infrastrutture, reti, cloud — con focus sulla cybersecurity:
-                vulnerability research, hardening, strategie di resilienza.
-                Collabora con aziende software per ridurre rischi reali, non teorici.
+                Si muove tra infrastrutture, reti e cloud con un obiettivo preciso: sicurezza solida e misurabile.
+                Analizza vulnerabilità, rafforza sistemi e sviluppa strategie di resilienza.
+                Collabora con aziende per eliminare rischi concreti e assicurare che la tecnologia resti sempre sotto controllo.
               </p>
             </div>
 
