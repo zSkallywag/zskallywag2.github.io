@@ -63,7 +63,7 @@ export const Founder = () => {
 
             <div className="pt-4 border-t-2 border-accent/20">
               <blockquote className="text-2xl md:text-3xl font-bold italic">
-                "Non vendo paura. <span className="text-accent">Ti mostro dove sei scoperto.</span>"
+                "Se non testiamo noi la tua sicurezza, <span className="text-accent">lo farà qualcun altro.</span>"
               </blockquote>
             </div>
           </div>
