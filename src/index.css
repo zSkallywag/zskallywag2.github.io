@@ -147,3 +147,13 @@ All colors MUST be HSL.
     }
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body, html, #root, main, section, div {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
