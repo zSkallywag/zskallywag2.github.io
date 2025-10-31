@@ -1,6 +1,6 @@
 export const AnnouncementBar = () => {
   const handleClick = () => {
-    window.open("mailto:info@cybernest.it?subject=Richiesta%20Call%2030%20Minuti", "_blank");
+    window.open("https://cal.com/cybernest/30min", "_blank");
   };
 
   return (
