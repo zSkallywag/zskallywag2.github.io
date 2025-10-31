@@ -55,8 +55,8 @@ export const Founder = () => {
             <div className="space-y-4 text-lg text-secondary leading-relaxed">
               <p>Fondatore di CyberNest.</p>
               <p>
-                Si muove tra infrastrutture, reti e cloud con un obiettivo preciso: sicurezza solida e misurabile.<br>
-                Analizza vulnerabilità, rafforza sistemi e sviluppa strategie di resilienza.<br>
+                Si muove tra infrastrutture, reti e cloud con un obiettivo preciso: sicurezza solida e misurabile. <br></br>
+                Analizza vulnerabilità, rafforza sistemi e sviluppa strategie di resilienza.
                 Collabora con aziende per eliminare rischi concreti e assicurare che la tecnologia resti sempre sotto controllo.
               </p>
             </div>
