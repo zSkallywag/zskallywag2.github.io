@@ -51,12 +51,13 @@ export const FinalCTA = () => {
           }`}
         >
           <h2 className="text-4xl md:text-6xl font-black leading-tight">
-            Sei arrivato fin qui?
+            Ehi, sei arrivato in fondo alla nostra pagina.
           </h2>
 
           <p className="text-xl sm:text-2xl md:text-3xl text-secondary leading-relaxed">
-            Bene. Significa che un po' di paura{" "}
-            <span className="text-accent font-bold">ti è rimasta.</span>
+            Dai, richiedi già la consulenza gratuita se sei così interessato.
+            Hai scrollato fino a qui, tanto vale concludere.
+            <span className="text-accent font-bold block mt-2">Avanti, clicca su questo.</span>
           </p>
 
           <div className="pt-4">
