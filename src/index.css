@@ -163,9 +163,4 @@ html, body {
   overflow-x: hidden;
 }
 
-main, section, div {
-  max-width: 100%;
-  overflow-x: clip;
-}
-
 
