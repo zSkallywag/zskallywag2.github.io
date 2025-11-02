@@ -55,9 +55,7 @@ export const FinalCTA = () => {
           </h2>
 
           <p className="text-xl sm:text-2xl md:text-3xl text-secondary leading-relaxed">
-            Dai, richiedi già la consulenza gratuita se sei così interessato.
-            Hai scrollato fino a qui, tanto vale concludere.
-            <span className="text-accent font-bold block mt-2">Avanti, clicca su questo.</span>
+            <span className="text-accent font-bold block mt-2">Tanto vale concludere, no?</span>
           </p>
 
           <div className="pt-4">
